@@ -236,6 +236,13 @@ class Mtx {
     colorStuff();
   }
   
+  int getSizeX(){return sizeX;}
+  int getSizeY(){return sizeY;}
+  
+  Dot getDotAt(int x, int y){
+    return dots[x][y];
+  }
+  
   void updateSize(){
    if (key == 'n'){
     brushSize--;

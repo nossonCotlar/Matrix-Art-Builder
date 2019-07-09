@@ -41,6 +41,10 @@ println(yeet.mouseCellX + "   " + yeet.mouseCellY);
  
 }
 
+void keyPressed(){
+ if(key == 'f') exportMatrix(yeet); 
+}
+
 void mouseReleased(){
  yeet.release(); 
 }
