@@ -1,3 +1,12 @@
+//the header in the file specifies the dimensions of the matrix
+
+
+//each pixel will appear in the frame file as follows:
+//x-position y-position H(value)S(value)B(value)
+//H = Hue, S = Saturation, B = Brightness
+
+
+
 void exportMatrix(Mtx m) {
   int sizeX = m.getSizeX();
   int sizeY = m.getSizeY();
